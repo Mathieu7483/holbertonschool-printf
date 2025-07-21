@@ -58,12 +58,12 @@ if (*format == '%' && *(format + 1))
 format++;
 if (*format == 'c')
 {
-char c = (char) va_arg(args, int);
+char c = (char) va_arg(arguments, int);
 display += function_c(c);
 }
 else if (*format == 's')
 {
-char *s = va_arg(args, char *);
+char *s = va_arg(arguments, char *);
 display += function_s(s);
 }
 else if (*format == '%')
@@ -83,6 +83,6 @@ display += function_c(*format);
 }
 format++;
 }
-va_end(args);
+va_end(arguments);
 return (display);
 }
