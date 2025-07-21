@@ -1,104 +1,132 @@
 <img src= "https://github.com/Mathieu7483/Aiko78-Photgraphy/blob/main/holberton%20modif.png">
 
-# 📚 holbertonschool-PrintF : Immersion dans le C de Bas Niveau
+# 🚀 holbertonschool-printf
+Ce projet vise à créer une version simplifiée de la fonction printf de la bibliothèque standard C. L'objectif est de comprendre son fonctionnement interne et de reproduire certaines de ses fonctionnalités clés, en respectant les exigences de style et de compilation définies par Holberton School.
 
-Bienvenue dans mon dépôt **`holbertonschool-PrintF`** ! Ce répertoire est le point de départ de mon parcours d'apprentissage intensif du langage C, en mettant l'accent sur la programmation de bas niveau. Il compile l'ensemble des projets et exercices réalisés dans le cadre de ma formation, depuis les fondamentaux jusqu'aux concepts plus avancés.
+# 📚 Table des Matières
+Contexte du Projet
 
-Mon objectif à travers ces projets est de développer une compréhension profonde de la manière dont les programmes fonctionnent "sous le capot", en explorant la mémoire, la compilation et les interactions directes avec le système.
+Ressources Apprises
 
-## 🎯 Aperçu des Objectifs d'Apprentissage
+Exigences Générales
 
-Ce dépôt vise à solidifier ma compréhension des concepts clés du C, me permettant d'expliquer sans effort :
+Utilisation
 
-* **Pourquoi le C est un langage essentiel** : Sa place et son rôle dans le monde de la programmation.
-* **Les figures emblématiques du C** : Qui sont Dennis Ritchie, Brian Kernighan et Linus Torvalds.
-* **Le processus de compilation** : Ce qui se passe lorsque l'on tape `gcc main.c`.
-* **Points d'entrée et la fonction `main`** : Leur importance et leurs rôles.
-* **Les bases de l'affichage** : Utiliser `printf`, `puts` et `putchar` pour interagir avec l'utilisateur.
-* **Manipulation des types et opérateurs** : Découvrir `sizeof` pour la taille des types.
-* **Compilation avancée** : Maîtriser `gcc`, le nom par défaut des exécutables et le style de codage **Betty**.
-* **Inclusion d'en-têtes** : Savoir trouver les bons fichiers d'en-tête pour les fonctions de la bibliothèque standard.
-* **Valeurs de retour des programmes** : L'influence de `main` sur le code de sortie d'un programme.
+Structure du Projet et Tâches
 
-## 🛠️ Technologies et Environnement
+Compilation
 
-* **Langage Principal** : C
-* **Scripts** : Shell / Bash
-* **Compilateur** : GCC (GNU Compiler Collection) sur Ubuntu 20.04 LTS
-* **Options de compilation strictes** : `-Wall -Werror -Wextra -pedantic -std=gnu89`
-* **Éditeurs de Code** : `vi`, `vim`, `emacs`
-* **Style de Codage** : Betty (vérifié par `betty-style.pl` et `betty-doc.pl`)
+Auteur
 
----
+#💡 Contexte du Projet
+Ce projet fait partie du cursus de programmation de Holberton School. Il se concentre sur la création d'une implémentation personnalisée de printf, en mettant l'accent sur la gestion des spécificateurs de conversion de base et le respect des normes de codage.
 
-## 📂 Structure du Dépôt et Projets
+# 📖 Ressources Apprises
+Au cours de ce projet, les concepts et outils suivants ont été approfondis :
 
-Ce dépôt est une collection de divers projets, chacun dans son propre dossier. Chaque dossier de projet contient un `README.md` spécifique détaillant ses propres objectifs et exercices. Voici un aperçu des principaux projets inclus :
+Secrets de printf : Compréhension approfondie du fonctionnement de la fonction printf.
 
-* **[Lien vers hello_world](https://github.com/Mathieu7483/holbertonschool-low_level_programming/tree/main/hello_world)** : Introduction aux bases du C (compilation, affichage, etc.).
-* **[Lien vers variables_if_else_while](https://github.com/Mathieu7483/holbertonschool-low_level_programming/tree/main/variables_if_else_while)** : Exploration des variables, conditions et boucles.
-* **[Lien vers functions_nested_loops](https://github.com/Mathieu7483/holbertonschool-low_level_programming/tree/main/functions_nested_loops)** : Fonctions et boucles imbriquées.
-* **[Lien vers more_functions_nested_loops](https://github.com/Mathieu7483/holbertonschool-low_level_programming/tree/main/more_functions_nested_loops)** : Fonctions supplémentaires et boucles complexes.
-* **[Lien vers pointers_arrays_strings](https://github.com/Mathieu7483/holbertonschool-low_level_programming/tree/main/pointers_arrays_strings)** : Maîtrise des pointeurs, tableaux et chaînes de caractères.
-* **[Lien vers recursion](https://github.com/Mathieu7483/holbertonschool-low_level_programming/tree/main/recursion)** : Comprendre et appliquer la récursivité.
-* **[Lien vers argc_argv](https://github.com/Mathieu7483/holbertonschool-low_level_programming/tree/main/argc_argv)** : Gestion des arguments de la ligne de commande (`argc`, `argv`).
-* **[Lien vers malloc free](https://github.com/Mathieu7483/holbertonschool-low_level_programming/tree/main/malloc_free)** : Comprendre Malloc, Calloc et Realloc.
-* **[Lien vers more malloc free](https://github.com/Mathieu7483/holbertonschool-low_level_programming/tree/main/more_malloc_free)** : Fonctions suplémentaires et Malloc plus complexe.
-* **[Lien vers structure typedef](https://github.com/Mathieu7483/holbertonschool-low_level_programming/tree/main/structures_typedef)** : Comprendre les structures, a quoi sert typedef.
-* **[Lien vers variadic functions](https://github.com/Mathieu7483/holbertonschool-low_level_programming/tree/main/variadic_functions)** : Création et utilisation des fonctions variadiques.
-* **[Lien vers function pointers](https://github.com/Mathieu7483/holbertonschool-low_level_programming/tree/main/function_pointers)** : Utilisation et comprehension des pointers de fonctions.
+Projets de Groupe : Collaboration et gestion de projet en équipe.
 
----
+Organigrammes (Flowcharts) : Visualisation et conception logique des algorithmes.
 
-## ⚙️ Exigences Générales des Projets
+Pages man : Utilisation de la documentation officielle pour printf (section 3).
 
-Tous les projets de ce dépôt suivent un ensemble commun de règles :
+gcc et ses options : Compilation de code C avec des drapeaux spécifiques (-Wall, -Werror, -Wextra, -pedantic, -std=gnu89, -Wno-format).
 
-* **Éditeurs Autorisés** : `vi`, `vim`, `emacs`.
-* **Environnement de Compilation** : Ubuntu 20.04 LTS avec `gcc`.
-* **Options de Compilation** : `-Wall -Werror -Wextra -pedantic -std=gnu89`.
-* **Fin de Fichier** : Tous les fichiers doivent se terminer par une nouvelle ligne.
-* **Documentation** : Un fichier `README.md` est requis à la racine de chaque dossier de projet.
-* **Qualité du Code** : Pas d'erreurs ni d'avertissements à la compilation.
-* **Restrictions** : Pas de variables globales, pas plus de 5 fonctions par fichier (sauf indication contraire), et **l'utilisation de `system()` est interdite**.
-* **Shell Scripts** : Si des scripts shell sont présents, ils doivent être de 2 lignes exactes, se terminer par une nouvelle ligne, et commencer par `#!/bin/bash`.
+Betty style : Adhésion aux normes de style de code de Holberton School.
 
----
+Fonctions à nombre variable d'arguments (va_list, va_start, va_end, va_copy, va_arg) : Gestion des arguments de fonction de manière dynamique.
 
-## 🧹 Outil de Style : Betty Linter
+Allocation mémoire dynamique (malloc, free) : Gestion de la mémoire pour les chaînes de caractères et autres données.
 
-Le respect du style de code **Betty** est primordial. Pour faciliter cette vérification :
+Gestion des entrées/sorties (write) : Écriture directe sur la sortie standard.
 
-1.  **Cloner le dépôt Betty** : `git clone https://github.com/holbertonschool/Betty.git`
-2.  **Se déplacer dans le répertoire** : `cd Betty`
-3.  **Installer le linter** : `sudo ./install.sh`
-4.  **Créer le script `betty` (wrapper)** : Créez un fichier nommé `betty` et copiez-y le contenu suivant :
-    ```bash
-    #!/bin/bash
-    # Simply a wrapper script to keep you from having to use betty-style
-    # and betty-doc separately on every item.
-    # Originally by Tim Britton (@wintermanc3r), multiargument added by
-    # Larry Madeo (@hillmonkey)
+# ✅ Exigences Générales
+Éditeurs Autorisé : vi, vim, emacs.
 
-    BIN_PATH="/usr/local/bin"
-    BETTY_STYLE="betty-style"
-    BETTY_DOC="betty-doc"
+Environnement de Compilation : Ubuntu 20.04 LTS.
 
-    if [ "$#" = "0" ]; then
-        echo "No arguments passed."
-        exit 1
-    fi
+Compilateur C : gcc avec les options -Wall -Werror -Wextra -pedantic -std=gnu89.
 
-    for argument in "$@" ; do
-        echo -e "\n========== $argument =========="
-        ${BIN_PATH}/${BETTY_STYLE} "$argument"
-        ${BIN_PATH}/${BETTY_DOC} "$argument"
-    done
-    ```
-5.  **Rendre le script exécutable** : `chmod a+x betty`
-6.  **Déplacer le script dans le PATH** : `sudo mv betty /bin/` (ou un autre répertoire de votre `$PATH`).
+Fin de Fichier : Tous les fichiers doivent se terminer par une nouvelle ligne.
 
-Vous pouvez maintenant exécuter `betty votre_fichier.c` pour vérifier la conformité au style Betty !
+Fichier README.md : Obligatoire à la racine du dossier du projet.
+
+Style de Code : Conforme au style Betty (vérifié avec betty-style.pl et betty-doc.pl).
+
+Variables Globales : Interdites.
+
+Nombre de Fonctions par Fichier : Pas plus de 5 fonctions par fichier.
+
+Fichiers main.c : Ne doivent pas être poussés dans le dépôt racine. Des fichiers de test avec main peuvent être placés dans un dossier séparé (test/).
+
+Fichier d'En-tête : main.h doit contenir les prototypes de toutes les fonctions et être protégé contre les inclusions multiples (include guarded).
+
+# 💻 Utilisation
+La fonction _printf est conçue pour être utilisée comme la fonction printf standard. Elle prend une chaîne de format et un nombre variable d'arguments, et affiche le résultat sur la sortie standard.
+```Bash
+C
+
+#include "main.h" // Incluez votre fichier d'en-tête
+
+int main(void)
+{
+    int count;
+
+    count = _printf("Ceci est une chaîne simple.\n");
+    _printf("Nombre de caractères imprimés : %d\n", count);
+
+    _printf("Un caractère : %c\n", 'A');
+    _printf("Une chaîne : %s\n", "Bonjour le monde !");
+    _printf("Un pourcentage : %%\n");
+    _printf("Un entier : %d\n", 42);
+    _printf("Un autre entier : %i\n", -123);
+
+    return (0);
+}
+```
+#📋 Structure du Projet et Tâches
+Le projet est organisé autour de l'implémentation progressive de la fonction _printf et de ses fonctionnalités.
+
+Tâches
+0. I'm not going anywhere. You can print that wherever you want to. I'm here and I'm a Spur for life
+Prototype : int _printf(const char *format, ...);
+
+Retour : Le nombre de caractères imprimés (hors octet nul de fin de chaîne).
+
+Gestion des spécificateurs :
+
+%c (caractère)
+
+%s (chaîne de caractères)
+
+%% (caractère %)
+
+Limitations : Pas de gestion de tampon, de drapeaux, de largeur de champ, de précision ou de modificateurs de longueur.
+
+1. Education is when you read the fine print. Experience is what you get if you don't
+Gestion des spécificateurs additionnels :
+
+%d (entier décimal signé)
+
+%i (entier décimal signé)
+
+Limitations : Pas de gestion de drapeaux, de largeur de champ, de précision ou de modificateurs de longueur.
+
+2. Just because it's in print doesn't mean it's the gospel
+Documentation : Création d'une page de manuel (man page) pour la fonction _printf.
+
+Fichier : man_3_printf
+
+⚙️ Compilation
+Votre code sera compilé comme suit :
+
+```Bash
+
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c
+Note importante : Ne poussez pas de fichier main.c dans le répertoire racine de votre projet. Nos fichiers main incluront votre fichier d'en-tête principal (main.h) via #include "main.h".
+```
 
 ---
 
