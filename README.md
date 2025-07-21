@@ -1,134 +1,136 @@
 <img src= "https://github.com/Mathieu7483/Aiko78-Photgraphy/blob/main/holberton%20modif.png">
 
 # 🚀 holbertonschool-printf
-Ce projet vise à créer une version simplifiée de la fonction printf de la bibliothèque standard C. L'objectif est de comprendre son fonctionnement interne et de reproduire certaines de ses fonctionnalités clés, en respectant les exigences de style et de compilation définies par Holberton School.
+This project aims to create a simplified version of the printf function from the standard C library. The goal is to understand its internal workings and reproduce some of its key functionalities, while adhering to the style and compilation requirements defined by Holberton School.
 
-# 📚 Table des Matières
-Contexte du Projet
+# 📚 Table of Contents
+Project Context
 
-Ressources Apprises
+Learned Resources
 
-Exigences Générales
+General Requirements
 
-Utilisation
+Usage
 
-Structure du Projet et Tâches
+Project Structure and Tasks
 
 Compilation
 
-Auteur
+Authors
 
-# 💡 Contexte du Projet
-Ce projet fait partie du cursus de programmation de Holberton School. Il se concentre sur la création d'une implémentation personnalisée de printf, en mettant l'accent sur la gestion des spécificateurs de conversion de base et le respect des normes de codage.
+# 💡 Project Context
+This project is part of the Holberton School programming curriculum. It focuses on creating a custom implementation of printf, emphasizing the handling of basic conversion specifiers and adherence to coding standards.
 
-# 📖 Ressources Apprises
-Au cours de ce projet, les concepts et outils suivants ont été approfondis :
+# 📖 Learned Resources
+Throughout this project, the following concepts and tools were explored in depth:
 
-Secrets de printf : Compréhension approfondie du fonctionnement de la fonction printf.
+Secrets of printf: In-depth understanding of how the printf function works.
 
-Projets de Groupe : Collaboration et gestion de projet en équipe.
+Group Projects: Collaboration and team project management.
 
-Organigrammes (Flowcharts) : Visualisation et conception logique des algorithmes.
+Flowcharts: Visualization and logical design of algorithms.
 
-Pages man : Utilisation de la documentation officielle pour printf (section 3).
+Man pages: Using official documentation for printf (section 3).
 
-gcc et ses options : Compilation de code C avec des drapeaux spécifiques (-Wall, -Werror, -Wextra, -pedantic, -std=gnu89, -Wno-format).
+gcc and its options: Compiling C code with specific flags (-Wall, -Werror, -Wextra, -pedantic, -std=gnu89, -Wno-format).
 
-Betty style : Adhésion aux normes de style de code de Holberton School.
+Betty style: Adherence to Holberton School's code style standards.
 
-Fonctions à nombre variable d'arguments (va_list, va_start, va_end, va_copy, va_arg) : Gestion des arguments de fonction de manière dynamique.
+Functions with a variable number of arguments (va_list, va_start, va_end, va_copy, va_arg): Handling function arguments dynamically.
 
-Allocation mémoire dynamique (malloc, free) : Gestion de la mémoire pour les chaînes de caractères et autres données.
+Dynamic memory allocation (malloc, free): Memory management for strings and other data.
 
-Gestion des entrées/sorties (write) : Écriture directe sur la sortie standard.
+Input/output management (write): Direct writing to standard output.
 
-# ✅ Exigences Générales
-Éditeurs Autorisé : vi, vim, emacs.
+# ✅ General Requirements
+Allowed Editors: vi, vim, emacs.
 
-Environnement de Compilation : Ubuntu 20.04 LTS.
+Compilation Environment: Ubuntu 20.04 LTS.
 
-Compilateur C : gcc avec les options -Wall -Werror -Wextra -pedantic -std=gnu89.
+C Compiler: gcc with options -Wall -Werror -Wextra -pedantic -std=gnu89.
 
-Fin de Fichier : Tous les fichiers doivent se terminer par une nouvelle ligne.
+End of File: All files must end with a newline.
 
-Fichier README.md : Obligatoire à la racine du dossier du projet.
+README.md File: Mandatory at the root of the project folder.
 
-Style de Code : Conforme au style Betty (vérifié avec betty-style.pl et betty-doc.pl).
+Code Style: Conforms to Betty style (checked with betty-style.pl and betty-doc.pl).
 
-Variables Globales : Interdites.
+Global Variables: Forbidden.
 
-Nombre de Fonctions par Fichier : Pas plus de 5 fonctions par fichier.
+Number of Functions per File: No more than 5 functions per file.
 
-Fichiers main.c : Ne doivent pas être poussés dans le dépôt racine. Des fichiers de test avec main peuvent être placés dans un dossier séparé (test/).
+main.c Files: Must not be pushed into the root repository. Test files with main can be placed in a separate folder (test/).
 
-Fichier d'En-tête : main.h doit contenir les prototypes de toutes les fonctions et être protégé contre les inclusions multiples (include guarded).
+Header File: main.h must contain the prototypes of all functions and be include-guarded.
 
-# 💻 Utilisation
-La fonction _printf est conçue pour être utilisée comme la fonction printf standard. Elle prend une chaîne de format et un nombre variable d'arguments, et affiche le résultat sur la sortie standard.
+# 💻 Usage
+The _printf function is designed to be used like the standard printf function. It takes a format string and a variable number of arguments, and prints the result to standard output.
+
 ```Bash
+
 C
 
-#include "main.h" // Incluez votre fichier d'en-tête
+#include "main.h" // Include your header file
 
 int main(void)
 {
     int count;
 
-    count = _printf("Ceci est une chaîne simple.\n");
-    _printf("Nombre de caractères imprimés : %d\n", count);
+    count = _printf("This is a simple string.\n");
+    _printf("Number of characters printed: %d\n", count);
 
-    _printf("Un caractère : %c\n", 'A');
-    _printf("Une chaîne : %s\n", "Bonjour le monde !");
-    _printf("Un pourcentage : %%\n");
-    _printf("Un entier : %d\n", 42);
-    _printf("Un autre entier : %i\n", -123);
+    _printf("A character: %c\n", 'A');
+    _printf("A string: %s\n", "Hello, world!");
+    _printf("A percentage: %%\n");
+    _printf("An integer: %d\n", 42);
+    _printf("Another integer: %i\n", -123);
 
     return (0);
 }
 ```
-# 📋 Structure du Projet et Tâches
-Le projet est organisé autour de l'implémentation progressive de la fonction _printf et de ses fonctionnalités.
 
-Tâches
+# 📋 Project Structure and Tasks
+The project is organized around the progressive implementation of the _printf function and its functionalities.
+
+Tasks
 0. I'm not going anywhere. You can print that wherever you want to. I'm here and I'm a Spur for life
-Prototype : int _printf(const char *format, ...);
+Prototype: int _printf(const char *format, ...);
 
-Retour : Le nombre de caractères imprimés (hors octet nul de fin de chaîne).
+Return: The number of characters printed (excluding the null terminator).
 
-Gestion des spécificateurs :
+Specifier management:
 
-%c (caractère)
+%c (character)
 
-%s (chaîne de caractères)
+%s (string)
 
-%% (caractère %)
+%% (percentage character)
 
-Limitations : Pas de gestion de tampon, de drapeaux, de largeur de champ, de précision ou de modificateurs de longueur.
+Limitations: No handling of buffer, flags, field width, precision, or length modifiers.
 
-1. Education is when you read the fine print. Experience is what you get if you don't
-Gestion des spécificateurs additionnels :
+Education is when you read the fine print. Experience is what you get if you don't
+Handling of additional specifiers:
 
-%d (entier décimal signé)
+%d (signed decimal integer)
 
-%i (entier décimal signé)
+%i (signed decimal integer)
 
-Limitations : Pas de gestion de drapeaux, de largeur de champ, de précision ou de modificateurs de longueur.
+Limitations: No handling of flags, field width, precision, or length modifiers.
 
-2. Just because it's in print doesn't mean it's the gospel
-Documentation : Création d'une page de manuel (man page) pour la fonction _printf.
+Just because it's in print doesn't mean it's the gospel
+Documentation: Creation of a manual page (man page) for the _printf function.
 
-Fichier : man_3_printf
+File: man_3_printf
 
-⚙️ Compilation
-Votre code sera compilé comme suit :
+# ⚙️ Compilation
+Your code will be compiled as follows:
 
-```Bash
+ ```Bash
+
 
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c
-Note importante : Ne poussez pas de fichier main.c dans le répertoire racine de votre projet. Nos fichiers main incluront votre fichier d'en-tête principal (main.h) via #include "main.h".
+Important note: Do not push any `main.c` files into your project's root directory. Our `main` files will include your main header file (`main.h`) via `#include "main.h"`.
 ```
 
----
-
-# ✍️ Auteurs
+✍️ Authors
 Mathieu GODALIER et Mathis ROY [liens vers le Github de Mathis](https://github.com/rpokman) - Élèves en programmation à la Holberton School
