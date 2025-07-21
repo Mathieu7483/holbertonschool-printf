@@ -9,3 +9,5 @@ main.c
 *.bak
 # Ignorer les fichiers de log générés par les tests ou le débogage
 *.log
+#ignore les fichiers .out
+*.out
