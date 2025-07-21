@@ -19,6 +19,7 @@ int function_c(char c) /*function to print char c*/
 int function_s(const char *s)/*function to print string s*/
 {
 	int string = 0;
+
 	for (; s && *s; s++, string++)
 	{
 		write(1, s, 1);
