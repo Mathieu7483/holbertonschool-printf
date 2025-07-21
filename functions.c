@@ -7,7 +7,7 @@
 *(excluding the null byte used to end output to strings)
 */
 int _printf(const char *format, ...)
-
+{
 /**
  * function_c - writes the character c to stdout
  * @c: The character to print
@@ -21,36 +21,16 @@ int function_c(char c) /*function to print char c*/
 }
 
 /**
- * function_s - prints strings separated by a separator
- * @separator: string to print between strings
- * @n: number of strings
- */
-void function_s(const char *separator, const unsigned int n, ...)
+*function_s - print a string
+*@s: string to print
+*Return: string
+*/
+int function_s(char s, ...)
 {
-	unsigned int a;
-	va_list args;
-	char *str;
-
-	va_start(args, n);
-
-	for (a = 0; a < n; a++)
+	for (s = 0; s <= '\0'; s++)
 	{
-		str = va_arg(args, char *);
-
-		if (str == NULL)
-			printf("(nil)");
-		else
-			printf("%s", str);
-
-		if (separator != NULL && a < n - 1)
-			printf("%s", separator);
+		_putchar(s);
 	}
-
-	va_end(args);
-	printf("\n");
+	return (0);
 }
-
-int function_% (char)
-{
-	
 }

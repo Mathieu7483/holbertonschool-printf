@@ -1,11 +1,13 @@
 #ifndef MAIN_H
 #define MAIN_H
+
 #include <stddef.h> /*pour size_t*/
 #include <stdio.h> /*pour stdout du printf*/
 #include <stdarg.h> /*pour va_arg*/
-#include <stdlib> /*pour Malloc et Atoi*/
+#include <stdlib.h> /*pour Malloc et Atoi*/
 #include <string.h> /*pour strlen*/
 
 int _printf(const char *format, ...);
 int _putchar(char c);
-endif /*MAIN_H*/
+
+#endif/*MAIN_H*/
