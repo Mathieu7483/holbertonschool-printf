@@ -44,14 +44,45 @@ int function_percent(void)/*function to print char %*/
 */
 int _printf(const char *format, ...)
 {
-	
+	va_list arguments;
+	int display = 0;
 
-	if (*format == NULL)
-	return;
-	if (*format == 'c')
-	return (function_c);
-	if (*format == 's')
-	return (function_s);
-	if (*format == 'p')
-	return (function_percent);
+	va_start(arguments, format);
+
+	if (format == NULL)
+	return (-1);
+while (*format)
+{
+if (*format == '%' && *(format + 1))
+{
+format++;
+if (*format == 'c')
+{
+char c = (char) va_arg(args, int);
+display += function_c(c);
+}
+else if (*format == 's')
+{
+char *s = va_arg(args, char *);
+display += function_s(s);
+}
+else if (*format == '%')
+{
+display += function_percent();
+}
+else
+{
+
+display += function_c('%');
+display += function_c(*format);
+}
+}
+else
+{
+display += function_c(*format);
+}
+format++;
+}
+va_end(args);
+return (display);
 }
