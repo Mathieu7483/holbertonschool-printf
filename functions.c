@@ -1,14 +1,5 @@
 #include "main.h"
 /**
-*_printf - The functions in the printf()
-*family produce output according to a format as described below
-*@format: format of the arguments
-*Return: the number of characters printed
-*(excluding the null byte used to end output to strings)
-*/
-int _printf(const char *format, ...)
-{
-/**
  * function_c - writes the character c to stdout
  * @c: The character to print
  *
@@ -33,4 +24,25 @@ int function_s(char s, ...)
 	}
 	return (0);
 }
+
+/**
+*function_percent - print '%'
+*@p: character '%'
+*Return: character %
+*/
+int function_percent(char p)
+{
+	p = '%';
+	return (write(1, &p, 1));
+}
+
+/**
+*_printf - The functions in the printf()
+*family produce output according to a format as described below
+*@format: format of the arguments
+*Return: the number of characters printed
+*(excluding the null byte used to end output to strings)
+*/
+int _printf(const char *format, ...)
+{
 }
