@@ -16,24 +16,23 @@ int function_c(char c) /*function to print char c*/
 *@s: string to print
 *Return: string
 */
-int function_s(char s, ...)
+int function_s(const char *s)/*function to print string s*/
 {
-	for (s = 0; s <= '\0'; s++)
+	int string = 0;
+	for (; s && *s; s++, string++)
 	{
-		_putchar(s);
+		write(1, s, 1);
 	}
-	return (0);
+	return (string);
 }
 
 /**
 *function_percent - print '%'
-*@p: character '%'
 *Return: character %
 */
-int function_percent(char p)
+int function_percent(void)/*function to print char %*/
 {
-	p = '%';
-	return (write(1, &p, 1));
+	return (write(1, "%", 1));
 }
 
 /**
@@ -45,4 +44,14 @@ int function_percent(char p)
 */
 int _printf(const char *format, ...)
 {
+	
+
+	if (*format == NULL)
+	return;
+	if (*format == 'c')
+	return (function_c);
+	if (*format == 's')
+	return (function_s);
+	if (*format == 'p')
+	return (function_percent);
 }

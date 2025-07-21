@@ -6,6 +6,7 @@
 #include <stdarg.h> /*pour va_arg*/
 #include <stdlib.h> /*pour Malloc et Atoi*/
 #include <string.h> /*pour strlen*/
+#include <unistd.h> /*pour _putchar*/
 
 int _printf(const char *format, ...);
 int _putchar(char c);
