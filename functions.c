@@ -49,3 +49,8 @@ void function_s(const char *separator, const unsigned int n, ...)
 	va_end(args);
 	printf("\n");
 }
+
+int function_% (char)
+{
+	
+}
