@@ -18,7 +18,7 @@ Compilation
 
 Auteur
 
-#💡 Contexte du Projet
+# 💡 Contexte du Projet
 Ce projet fait partie du cursus de programmation de Holberton School. Il se concentre sur la création d'une implémentation personnalisée de printf, en mettant l'accent sur la gestion des spécificateurs de conversion de base et le respect des normes de codage.
 
 # 📖 Ressources Apprises
@@ -86,7 +86,7 @@ int main(void)
     return (0);
 }
 ```
-#📋 Structure du Projet et Tâches
+# 📋 Structure du Projet et Tâches
 Le projet est organisé autour de l'implémentation progressive de la fonction _printf et de ses fonctionnalités.
 
 Tâches
@@ -130,5 +130,5 @@ Note importante : Ne poussez pas de fichier main.c dans le répertoire racine de
 
 ---
 
-# ✍️ Auteur
-Mathieu GODALIER et Mathis Roy [liens vers le Github de Mathis](https://github.com/rpokman) - Élèves en programmation à la Holberton School
+# ✍️ Auteurs
+Mathieu GODALIER et Mathis ROY [liens vers le Github de Mathis](https://github.com/rpokman) - Élèves en programmation à la Holberton School
