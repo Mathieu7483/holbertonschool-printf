@@ -104,6 +104,7 @@ Specifier management:
 
 Limitations: No handling of buffer, flags, field width, precision, or length modifiers.
 
+Tasks
 1. Education is when you read the fine print. Experience is what you get if you don't
 Handling of additional specifiers:
 
@@ -113,6 +114,7 @@ Handling of additional specifiers:
 
 Limitations: No handling of flags, field width, precision, or length modifiers.
 
+Tasks
 2. Just because it's in print doesn't mean it's the gospel
 Documentation: Creation of a manual page (man page) for the _printf function.
 
