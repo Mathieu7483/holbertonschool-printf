@@ -20,6 +20,10 @@ int function_s(const char *s)/*function to print string s*/
 {
 	int string = 0;
 
+	if (*s == NULL)
+	{
+		return ((null));
+	}
 	for (; s && *s; s++, string++)
 	{
 		write(1, s, 1);
@@ -43,23 +47,23 @@ int function_percent(void)/*function to print char %*/
  */
 int function_d(int d)
 {
-    int len = 0;
-    unsigned int num;
+	int len = 0;
+	unsigned int num;
 
-    if (d < 0)
-    {
-        len += function_c('-');
-        num = -d;
-    }
-    else
-    {
-        num = d;
-    }
+	if (d < 0)
+	{
+		len += function_c('-');
+		num = -d;
+	}
+	else
+	{
+		num = d;
+	}
 
-    if (num / 10)
-        len += function_d(num / 10);
+	if (num / 10)
+	len += function_d(num / 10);
 
-    len += function_c((num % 10) + '0');
+	len += function_c((num % 10) + '0');
 
-    return len;
+	return (len);
 }
