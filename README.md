@@ -4,21 +4,14 @@
 This project aims to create a simplified version of the printf function from the standard C library. The goal is to understand its internal workings and reproduce some of its key functionalities, while adhering to the style and compilation requirements defined by Holberton School.
 
 # 📚 Table of Contents
-Project Context
-
-Learned Resources
-
-General Requirements
-
-Usage
-
-Flowchart & Snippets
-
-Project Structure and Tasks
-
-Compilation
-
-Authors
+* [Project Context](#project-context)
+* [Learned Resources](#learned-resources)
+* [General Requirements](#general-requirements)
+* [Usage](#usage)
+* [Flowchart & Snippets](#flowchart--snippets)
+* [Project Structure and Tasks](#project-structure-and-tasks)
+* [Compilation](#compilation)
+* [Authors](#authors)
 
 # 💡 Project Context
 This project is part of the Holberton School programming curriculum. It focuses on creating a custom implementation of printf, emphasizing the handling of basic conversion specifiers and adherence to coding standards.
