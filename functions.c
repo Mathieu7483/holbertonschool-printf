@@ -20,9 +20,9 @@ int function_s(const char *s)/*function to print string s*/
 {
 	int string = 0;
 
-	if (*s == NULL)
+	if (!s)
 	{
-		return ((null));
+		s = "(null)";
 	}
 	for (; s && *s; s++, string++)
 	{
