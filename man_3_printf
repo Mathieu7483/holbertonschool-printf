@@ -35,6 +35,6 @@ Hello Alice! You scored 95% on the test.
 .SH SEE ALSO
 .BR printf(3)
 .SH AUTHOR
-Function written by Florian Hadjar and Heytem Keddous.
+Function written by ROY Mathis and GODALIER Mathieu.
 .SH COPYRIGHT
 Free to use and modify for educational or personal purposes.
