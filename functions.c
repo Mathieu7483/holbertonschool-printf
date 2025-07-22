@@ -43,19 +43,32 @@ int function_percent(void)/*function to print char %*/
 */
 int function_d(int d)
 {
-	if (d == 0)
-	{
-		return (1);
-	}
+	int len = 0;
+	unsigned int num;
 
-	if (d < 0)
-	{
+if (d < 0)
+{
 	putchar('-');
-	}
-int len;
-while (d != 0)
+	len++;
+	num = -d;
+}
+else
+{
+	num = d;
+}
+if (num == 0)
+{
+	putchar('0');
+	return (1);
+}
+
+if (num / 10)
+{
+	len += function_d(num / 10);
+}
+
+putchar((num % 10) + '0');
 len++;
+
 return (len);
-_putchar((d / 10) + '0');
-_putchar((d % 10) + '0');
 }
