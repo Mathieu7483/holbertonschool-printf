@@ -12,6 +12,8 @@ General Requirements
 
 Usage
 
+Flowchart & Snippets
+
 Project Structure and Tasks
 
 Compilation
