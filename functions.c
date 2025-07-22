@@ -36,3 +36,26 @@ int function_percent(void)/*function to print char %*/
 	return (write(1, "%", 1));
 }
 
+/**
+*function_d - print a decimal with sign
+*@d: integer
+*Return: print sign with decimal
+*/
+int function_d(int d)
+{
+	if (d == 0)
+	{
+		return (1);
+	}
+
+	if (d < 0)
+	{
+	putchar('-');
+	}
+int len;
+while (d != 0)
+len++;
+return (len);
+_putchar((d / 10) + '0');
+_putchar((d % 10) + '0');
+}

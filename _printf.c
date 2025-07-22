@@ -1,3 +1,4 @@
+#include "main.h"
 /**
 *_printf - The functions in the printf()
 *family produce output according to a format as described below
@@ -34,6 +35,12 @@ while (*format)
 		else if (*format == '%')
 		{
 			display += function_percent();
+		}
+		else if (*format == 'd')
+		{
+			int d = va_arg(arguments, int);
+
+			display += function_d(d);
 		}
 		else
 		{
