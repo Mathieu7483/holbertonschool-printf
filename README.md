@@ -131,8 +131,9 @@ Your code will be compiled as follows:
 
 
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c
-Important note: Do not push any `main.c` files into your project's root directory. Our `main` files will include your main header file (`main.h`) via `#include "main.h"`.
 ```
+Important note: Do not push any `main.c` files into your project's root directory. Our `main` files will include your main header file (`main.h`) via `#include "main.h"`.
+
 
 # ✍️ Authors
 [Mathieu GODALIER](https://github.com/Mathieu7483) and [Mathis ROY](https://github.com/rpokman) - Students in programming at Holberton School
