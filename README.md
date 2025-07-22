@@ -104,7 +104,7 @@ Specifier management:
 
 Limitations: No handling of buffer, flags, field width, precision, or length modifiers.
 
-Education is when you read the fine print. Experience is what you get if you don't
+1. Education is when you read the fine print. Experience is what you get if you don't
 Handling of additional specifiers:
 
 %d (signed decimal integer)
@@ -113,7 +113,7 @@ Handling of additional specifiers:
 
 Limitations: No handling of flags, field width, precision, or length modifiers.
 
-Just because it's in print doesn't mean it's the gospel
+2. Just because it's in print doesn't mean it's the gospel
 Documentation: Creation of a manual page (man page) for the _printf function.
 
 File: man_3_printf
@@ -128,6 +128,10 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c
 ```
 Important note: Do not push any `main.c` files into your project's root directory. Our `main` files will include your main header file (`main.h`) via `#include "main.h"`.
 
+For acces the manpage :
+```Bash
+~/Holberton/holbertonschool-printf$ man ./man_3_printf
+```
 
 # ✍️ Authors
 [Mathieu GODALIER](https://github.com/Mathieu7483) and [Mathis ROY](https://github.com/rpokman) - Students in programming at Holberton School
