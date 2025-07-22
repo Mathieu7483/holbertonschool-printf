@@ -5,7 +5,7 @@ This project aims to create a simplified version of the printf function from the
 
 # 📚 Table of Contents
 * [Project Context](#project-context)
-* [Learned Resources](#learned-resources)
+* [Learned Resources](https://github.com/Mathieu7483/holbertonschool-printf/tree/main?tab=readme-ov-file#-learned-resources)
 * [General Requirements](#general-requirements)
 * [Usage](#usage)
 * [Flowchart & Snippets](#flowchart--snippets)
