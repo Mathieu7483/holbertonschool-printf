@@ -36,10 +36,9 @@ while (*format)
 		{
 			display += function_percent();
 		}
-		else if (*format == 'd')
+		else if (*format == 'd' || *format == 'i')
 		{
 			int d = va_arg(arguments, int);
-
 			display += function_d(d);
 		}
 		else

@@ -37,38 +37,29 @@ int function_percent(void)/*function to print char %*/
 }
 
 /**
-*function_d - print a decimal with sign
-*@d: integer
-*Return: print sign with decimal
-*/
+ * function_d - print a decimal with sign
+ * @d: integer
+ * Return: number of characters printed
+ */
 int function_d(int d)
 {
-	int len = 0;
-	unsigned int num;
+    int len = 0;
+    unsigned int num;
 
-if (d < 0)
-{
-	putchar('-');
-	len++;
-	num = -d;
-}
-else
-{
-	num = d;
-}
-if (num == 0)
-{
-	putchar('0');
-	return (1);
-}
+    if (d < 0)
+    {
+        len += function_c('-');
+        num = -d;
+    }
+    else
+    {
+        num = d;
+    }
 
-if (num / 10)
-{
-	len += function_d(num / 10);
-}
+    if (num / 10)
+        len += function_d(num / 10);
 
-putchar((num % 10) + '0');
-len++;
+    len += function_c((num % 10) + '0');
 
-return (len);
+    return len;
 }
