@@ -135,4 +135,4 @@ Important note: Do not push any `main.c` files into your project's root director
 ```
 
 # ✍️ Authors
-Mathieu GODALIER et Mathis ROY [liens vers le Github de Mathis](https://github.com/rpokman) - Élèves en programmation à la Holberton School
+[Mathieu GODALIER](https://github.com/Mathieu7483) and [Mathis ROY](https://github.com/rpokman) - Students in programming at Holberton School
