@@ -85,7 +85,7 @@ int main(void)
 # 📊 Flowchart et Snippets
 <center>
     <img src= "https://github.com/Mathieu7483/holbertonschool-printf/blob/main/Flowchart%20d%C3%A9finitif.png">
-</center>
+<\center>
 
 # 📋 Project Structure and Tasks
 The project is organized around the progressive implementation of the _printf function and its functionalities.
