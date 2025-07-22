@@ -65,7 +65,7 @@ The _printf function is designed to be used like the standard printf function. I
 
 C
 
-#include "main.h" // Include your header file
+#include "main.h"
 
 int main(void)
 {
@@ -73,7 +73,6 @@ int main(void)
 
     count = _printf("This is a simple string.\n");
     _printf("Number of characters printed: %d\n", count);
-
     _printf("A character: %c\n", 'A');
     _printf("A string: %s\n", "Hello, world!");
     _printf("A percentage: %%\n");
