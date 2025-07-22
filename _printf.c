@@ -24,7 +24,6 @@ while (*format)
 			char c = (char) va_arg(arguments, int);
 
 			display += function_c(c);
-
 		}
 		else if (*format == 's')
 		{
