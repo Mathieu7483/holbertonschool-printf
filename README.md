@@ -4,14 +4,14 @@
 This project aims to create a simplified version of the printf function from the standard C library. The goal is to understand its internal workings and reproduce some of its key functionalities, while adhering to the style and compilation requirements defined by Holberton School.
 
 # 📚 Table of Contents
-* [Project Context](#project-context)
+* [Project Context](https://github.com/Mathieu7483/holbertonschool-printf/blob/main/README.md#-project-context)
 * [Learned Resources](https://github.com/Mathieu7483/holbertonschool-printf/tree/main?tab=readme-ov-file#-learned-resources)
-* [General Requirements](#general-requirements)
-* [Usage](#usage)
-* [Flowchart & Snippets](#flowchart--snippets)
-* [Project Structure and Tasks](#project-structure-and-tasks)
-* [Compilation](#compilation)
-* [Authors](#authors)
+* [General Requirements](https://github.com/Mathieu7483/holbertonschool-printf/blob/main/README.md#-general-requirements)
+* [Usage](https://github.com/Mathieu7483/holbertonschool-printf/blob/main/README.md#-usage)
+* [Flowchart & Snippets](https://github.com/Mathieu7483/holbertonschool-printf/blob/main/README.md#-flowchart-et-snippets)
+* [Project Structure and Tasks](https://github.com/Mathieu7483/holbertonschool-printf/blob/main/README.md#-project-structure-and-tasks)
+* [Compilation](https://github.com/Mathieu7483/holbertonschool-printf/blob/main/README.md#%EF%B8%8F-compilation)
+* [Authors](https://github.com/Mathieu7483/holbertonschool-printf/blob/main/README.md#%EF%B8%8F-authors)
 
 # 💡 Project Context
 This project is part of the Holberton School programming curriculum. It focuses on creating a custom implementation of printf, emphasizing the handling of basic conversion specifiers and adherence to coding standards.
