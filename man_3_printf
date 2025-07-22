@@ -1,1 +1,40 @@
-#include "main.h"
+.TH _PRINTF 3 "22 July 2025" "Custom Version" "Programmer's Manual"
+.SH NAME
+_printf \- our version of printf (handles %c, %s, %%, %d, %i)
+.SH SYNOPSIS
+.B #include "main.h"
+.br
+.B int _printf(const char *format, ...);
+.SH DESCRIPTION
+.B _printf()
+is a simplified implementation of the standard printf function. It displays data to the standard output using a format string.
+Supported format specifiers include:
+.TP
+.B %c
+Prints a single character.
+.TP
+.B %s
+Prints a string of characters.
+.TP
+.B %d, %i
+Prints a decimal integer.
+.TP
+.B %%
+Prints a literal percent sign.
+If an invalid format specifier is encountered, both the `%` and the following character are printed as-is.
+.SH RETURN VALUE
+Returns the total number of characters printed to the output (excluded the null bytes).
+If  it is an error the return will be negative.
+.SH EXAMPLE
+.nf
+_printf("Hello %s! You scored %d%% on the test.\\n", "Alice", 95);
+.fi
+Output:
+.in
+Hello Alice! You scored 95% on the test.
+.SH SEE ALSO
+.BR printf(3)
+.SH AUTHOR
+Function written by Florian Hadjar and Heytem Keddous.
+.SH COPYRIGHT
+Free to use and modify for educational or personal purposes.
