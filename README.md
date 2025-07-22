@@ -116,7 +116,13 @@ Limitations: No handling of flags, field width, precision, or length modifiers.
 2. Just because it's in print doesn't mean it's the gospel
 Documentation: Creation of a manual page (man page) for the _printf function.
 
-File: man_3_printf
+[Link to Function.c](https://github.com/Mathieu7483/holbertonschool-printf/blob/main/functions.c)
+
+[Link to _printf](https://github.com/Mathieu7483/holbertonschool-printf/blob/main/_printf.c)
+
+[Link to main.h](https://github.com/Mathieu7483/holbertonschool-printf/blob/main/main.h)
+
+[Link to manpage of _printf](https://github.com/Mathieu7483/holbertonschool-printf/blob/main/man_3_printf)
 
 # ⚙️ Compilation
 Your code will be compiled as follows:
