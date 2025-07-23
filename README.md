@@ -87,8 +87,9 @@ int main(void)
 <img src= "https://github.com/Mathieu7483/holbertonschool-printf/blob/main/Flowchart%20d%C3%A9finitif.png">
 
 ## Snippets
-exemple of our code for the function "string"
+Exemple of our code for the function "string"
 <img src= "https://github.com/Mathieu7483/holbertonschool-printf/blob/main/Snippet.png">
+Snippet for _Printf of our function "string" 
 <img src= "https://github.com/Mathieu7483/holbertonschool-printf/blob/main/Snippet1.png">
 
 # 📋 Project Structure and Tasks
@@ -103,11 +104,11 @@ Return: The number of characters printed (excluding the null terminator).
 
 Specifier management:
 
-%c (character)
+* %c (character)
 
-%s (string)
+* %s (string)
 
-%% (percentage character)
+* %% (percentage character)
 
 Limitations: No handling of buffer, flags, field width, precision, or length modifiers.
 
@@ -115,9 +116,9 @@ Limitations: No handling of buffer, flags, field width, precision, or length mod
 1. Education is when you read the fine print. Experience is what you get if you don't
 Handling of additional specifiers:
 
-%d (signed decimal integer)
+* %d (signed decimal integer)
 
-%i (signed decimal integer)
+* %i (signed decimal integer)
 
 Limitations: No handling of flags, field width, precision, or length modifiers.
 
