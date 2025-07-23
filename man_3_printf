@@ -1,4 +1,4 @@
-.TH _PRINTF 3 "22 July 2025" "Custom Version" "Programmer's Manual"
+.TH _PRINTF 3 "22 July 2025" "Custom Version" "_Printf Manpage"
 .SH NAME
 _printf \- our version of printf (handles %c, %s, %%, %d, %i)
 .SH SYNOPSIS
@@ -35,4 +35,4 @@ Hello Betty! You scored 78% on the test.
 .SH SEE ALSO
 .BR printf(3)
 .SH AUTHOR
-Function written by ROY Mathis and GODALIER Mathieu.
+Function written by ROY Mathis and GODALIER Mathieu.q
