@@ -83,17 +83,6 @@ int main(void)
     return (0);
 }
 
-* Output *
-~/Holberton/holbertonschool-printf$ ./test
-
-Let's try to printf a simple sentence.
-Length:[39, 39]
-Negative:[-762534]
-Character:[H]
-String:[I am a string !]
-Percent:[%]
-Len:[12]
-
 ```
 # 📊 Flowchart et Snippets
 ## Flowchart
