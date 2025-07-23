@@ -145,7 +145,7 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c
 ```
 Important note: Do not push any `main.c` files into your project's root directory. Our `main` files will include your main header file (`main.h`) via `#include "main.h"`.
 
-For acces the manpage :
+For access the manpage :
 ```Bash
 ~/Holberton/holbertonschool-printf$ man ./man_3_printf
 ```
