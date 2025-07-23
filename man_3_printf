@@ -24,14 +24,14 @@ Prints a literal percent sign.
 If an invalid format specifier is encountered, both the `%` and the following character are printed as-is.
 .SH RETURN VALUE
 Returns the total number of characters printed to the output (excluded the null bytes).
-If  it is an error the return will be negative.
+If it is an error the return will be negative.
 .SH EXAMPLE
 .nf
-_printf("Hello %s! You scored %d%% on the test.\\n", "Alice", 95);
+_printf("Hello %s! You scored %d%% on the test.\\n", "Betty", 78);
 .fi
 Output:
 .in
-Hello Alice! You scored 95% on the test.
+Hello Betty! You scored 78% on the test.
 .SH SEE ALSO
 .BR printf(3)
 .SH AUTHOR
