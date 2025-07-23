@@ -137,20 +137,20 @@ Documentation: Creation of a manual page (man page) for the _printf function.</i
 
 
 # ⚙️ Compilation
-Your code will be compiled as follows:
+**Your code will be compiled as follows:**
 
  ```Bash
 
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c
 ```
 
-For our compilation we create a "Test" executable like this :
+**For our compilation we create a "Test" executable like this :**
 ```Bash
 
  gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c -o test 
 ```
 
-For access the manpage :
+**For access the manpage :**
 ```Bash
 ~/Holberton/holbertonschool-printf$ man ./man_3_printf
 ```
