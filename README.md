@@ -17,25 +17,25 @@ This project aims to create a simplified version of the printf function from the
 This project is part of the Holberton School programming curriculum. It focuses on creating a custom implementation of printf, emphasizing the handling of basic conversion specifiers and adherence to coding standards.
 
 # 📖 Learned Resources
-Throughout this project, the following concepts and tools were explored in depth:
+**Throughout this project, the following concepts and tools were explored in depth:**
 
-Secrets of printf: In-depth understanding of how the printf function works.
+**Secrets of printf:** In-depth understanding of how the printf function works.
 
-Group Projects: Collaboration and team project management.
+**Group Projects:** Collaboration and team project management.
 
-Flowcharts: Visualization and logical design of algorithms.
+**Flowcharts:** Visualization and logical design of algorithms.
 
-Man pages: Using official documentation for printf (section 3).
+**Man pages:** Using official documentation for printf (section 3).
 
-gcc and its options: Compiling C code with specific flags (-Wall, -Werror, -Wextra, -pedantic, -std=gnu89, -Wno-format).
+**gcc and its options:** Compiling C code with specific flags (-Wall, -Werror, -Wextra, -pedantic, -std=gnu89, -Wno-format).
 
-Betty style: Adherence to Holberton School's code style standards.
+**Betty style:** Adherence to Holberton School's code style standards.
 
-Functions with a variable number of arguments (va_list, va_start, va_end, va_copy, va_arg): Handling function arguments dynamically.
+**Functions with a variable number of arguments (va_list, va_start, va_end, va_copy, va_arg):** Handling function arguments dynamically.
 
-Dynamic memory allocation (malloc, free): Memory management for strings and other data.
+**Dynamic memory allocation (malloc, free):** Memory management for strings and other data.
 
-Input/output management (write): Direct writing to standard output.
+**Input/output management (write):** Direct writing to standard output.
 
 # ✅ General Requirements
 Allowed Editors: *vi, vim, emacs.*
