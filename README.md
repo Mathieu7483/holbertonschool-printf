@@ -95,7 +95,7 @@ Snippet for _Printf of our function "string"
 # 📋 Project Structure and Tasks
 The project is organized around the progressive implementation of the _printf function and its functionalities.
 
-Tasks
+## Tasks
 
 0. I'm not going anywhere. You can print that wherever you want to. I'm here and I'm a Spur for life
 Prototype: int _printf(const char *format, ...);
