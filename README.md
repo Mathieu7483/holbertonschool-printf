@@ -144,12 +144,11 @@ Your code will be compiled as follows:
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c
 ```
 
-for our compilation we create a "Test" executable like this :
+For our compilation we create a "Test" executable like this :
 ```Bash
 
  gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c -o test 
 ```
-Important note: Do not push any `main.c` files into your project's root directory. Our `main` files will include your main header file (`main.h`) via `#include "main.h"`.
 
 For access the manpage :
 ```Bash
