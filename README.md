@@ -38,25 +38,25 @@ Dynamic memory allocation (malloc, free): Memory management for strings and othe
 Input/output management (write): Direct writing to standard output.
 
 # ✅ General Requirements
-Allowed Editors: vi, vim, emacs.
+Allowed Editors: *vi, vim, emacs.*
 
-Compilation Environment: Ubuntu 20.04 LTS.
+Compilation Environment: *Ubuntu 20.04 LTS.*
 
-C Compiler: gcc with options -Wall -Werror -Wextra -pedantic -std=gnu89.
+C Compiler: *gcc with options -Wall -Werror -Wextra -pedantic -std=gnu89.*
 
-End of File: All files must end with a newline.
+End of File: *All files must end with a newline.*
 
-README.md File: Mandatory at the root of the project folder.
+README.md File: *Mandatory at the root of the project folder.*
 
-Code Style: Conforms to Betty style (checked with betty-style.pl and betty-doc.pl).
+Code Style: *Conforms to Betty style (checked with betty-style.pl and betty-doc.pl).*
 
-Global Variables: Forbidden.
+Global Variables: *Forbidden.*
 
-Number of Functions per File: No more than 5 functions per file.
+Number of Functions per File: *No more than 5 functions per file.*
 
-main.c Files: Must not be pushed into the root repository. Test files with main can be placed in a separate folder (test/).
+main.c Files: *Must not be pushed into the root repository. Test files with main can be placed in a separate folder (test/).*
 
-Header File: main.h must contain the prototypes of all functions and be include-guarded.
+Header File: *main.h must contain the prototypes of all functions and be include-guarded.*
 
 # 💻 Usage
 The _printf function is designed to be used like the standard printf function. It takes a format string and a variable number of arguments, and prints the result to standard output.
