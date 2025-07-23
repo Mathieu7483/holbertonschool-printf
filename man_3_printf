@@ -27,11 +27,11 @@ Returns the total number of characters printed to the output (excluded the null 
 If it is an error the return will be negative.
 .SH EXAMPLE
 .nf
-_printf("Hello %s! You scored %d%% on the test.\\n", "Betty", 78);
+_printf("Hello %s! You completed %d%% on your adventure in Game.\\n", "Betty", 78);
 .fi
 Output:
 .in
-Hello Betty! You scored 78% on the test.
+Hello Betty! You completed 78% on your adventure in Game.
 .SH SEE ALSO
 .BR printf(3)
 .SH AUTHOR
