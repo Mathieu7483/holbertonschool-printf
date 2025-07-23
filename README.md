@@ -88,13 +88,13 @@ int main(void)
 <img src= "https://github.com/Mathieu7483/holbertonschool-printf/blob/main/Flowchart%20d%C3%A9finitif.png">
 
 ## Snippets
-Exemple of our code for the function "string"
+**Exemple of our code for the function "string"**
 <img src= "https://github.com/Mathieu7483/holbertonschool-printf/blob/main/Snippet.png">
-Snippet for _Printf of our function "string" 
+**Snippet for _Printf of our function "string"**
 <img src= "https://github.com/Mathieu7483/holbertonschool-printf/blob/main/Snippet1.png">
 
 # 📋 Project Structure and Tasks
-The project is organized around the progressive implementation of the _printf function and its functionalities.
+*The project is organized around the progressive implementation of the _printf function and its functionalities.*
 
 ## Tasks
 
