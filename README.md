@@ -84,7 +84,8 @@ int main(void)
 }
 
 * Output *
-~/Holberton/holbertonschool-printf$ ./test 
+~/Holberton/holbertonschool-printf$ ./test
+
 Let's try to printf a simple sentence.
 Length:[39, 39]
 Negative:[-762534]
