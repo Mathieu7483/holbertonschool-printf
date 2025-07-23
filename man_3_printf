@@ -36,5 +36,3 @@ Hello Betty! You scored 78% on the test.
 .BR printf(3)
 .SH AUTHOR
 Function written by ROY Mathis and GODALIER Mathieu.
-.SH COPYRIGHT
-Free to use and modify for educational or personal purposes.
