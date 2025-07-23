@@ -69,15 +69,16 @@ C
 
 int main(void)
 {
-    int count;
+    int len;
 
-    count = _printf("This is a simple string.\n");
-    _printf("Number of characters printed: %d\n", count);
-    _printf("A character: %c\n", 'A');
-    _printf("A string: %s\n", "Hello, world!");
-    _printf("A percentage: %%\n");
-    _printf("An integer: %d\n", 42);
-    _printf("Another integer: %i\n", -123);
+    len = _printf("Let's try to printf a simple sentence.\n");
+    _printf("Length:[%d, %i]\n", len, len);
+    _printf("Negative:[%d]\n", -762534);
+    _printf("Character:[%c]\n", 'H');
+    _printf("String:[%s]\n", "I am a string !");
+    len = _printf("Percent:[%%]\n");
+    _printf("Len:[%d]\n", len);
+    return (0);
 
     return (0);
 }
