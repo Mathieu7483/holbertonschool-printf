@@ -80,7 +80,6 @@ int main(void)
     _printf("Len:[%d]\n", len);
     return (0);
 
-    return (0);
 }
 
 ```
