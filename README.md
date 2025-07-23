@@ -94,9 +94,9 @@ int main(void)
 <img src= "https://github.com/Mathieu7483/holbertonschool-printf/blob/main/Snippet1.png">
 
 # 📋 Project Structure and Tasks
-*The project is organized around the progressive implementation of the _printf function and its functionalities.*
+## *The project is organized around the progressive implementation of the _printf function and its functionalities.*
 
-## Tasks
+### Tasks
 
 <ins>0. I'm not going anywhere. You can print that wherever you want to. I'm here and I'm a Spur for life
 Prototype: int _printf(const char *format, ...);</ins>
