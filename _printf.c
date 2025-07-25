@@ -20,32 +20,7 @@ while (*format)
 	if (*format == '%' && *(format + 1))
 	{
 		format++;
-		if (*format == 'c')
-		{
-			char c = (char) va_arg(arguments, int);
-
-			display += function_c(c);
-		}
-		else if (*format == 's')
-		{
-			char *s = va_arg(arguments, char *);
-
-			display += function_s(s);
-		}
-		else if (*format == '%')
-		{
-			display += function_percent();
-		}
-		else if (*format == 'd' || *format == 'i')
-		{
-			int d = va_arg(arguments, int);
-			display += function_d(d);
-		}
-		else
-		{
-			display += function_c('%');
-			display += function_c(*format);
-		}
+		display += type_format(*format, arguments);
 	}
 	else
 	{
