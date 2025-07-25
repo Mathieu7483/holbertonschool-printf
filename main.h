@@ -16,5 +16,5 @@ int function_percent(void);
 int function_d(int d);
 int function_i(int i);
 
-char *type_format(char format, va_list arguments);
+char type_format(char format, va_list arguments);
 #endif/*MAIN_H*/
