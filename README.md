@@ -1,4 +1,4 @@
-<img src= "https://github.com/Mathieu7483/Aiko78-Photgraphy/blob/main/holberton%20modif.png">
+<img src= "https://github.com/Mathieu7483/Aiko78-Photgraphy/blob/main/img/holberton%20modif.png">
 
 # 🚀 holbertonschool-printf
 This project aims to create a simplified version of the printf function from the standard C library. The goal is to understand its internal workings and reproduce some of its key functionalities, while adhering to the style and compilation requirements defined by Holberton School.
